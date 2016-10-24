@@ -1,24 +1,33 @@
-# README
+# README for ITEM_cart
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Ruby version
+* Rails 5.0.0
 
-* Ruby version
+## Gem dependencies
+* gem 'responders'  (To make cod DRY-er)
+* gem 'react-rails'
 
-* System dependencies
+## Configuration
+1. To get the file in JSON format, go to http://localhost:3000/api/v1/items.json
+2. To get see the CRUD front-end react format, go to http://localhost:3000
 
-* Configuration
+## Database creationµ
+* POSTGRESQL
 
-* Database creation
+## Database initialization
+  ### In your terminal
+      bundle install
+      rails db:create
+      rails db:migrate
+      rails db:seed
 
-* Database initialization
+## Deployment instructions
+1. Clone the repo
+2. In your terminal
+* bundle install
+* rails db:create
+* rails db:migrate
+* rails db:seed
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Taken from an awesome tutorial](http://tutorials.pluralsight.com/ruby-ruby-on-rails/building-a-crud-interface-with-react-and-ruby-on-rails)

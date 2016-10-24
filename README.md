@@ -19,7 +19,7 @@
   #### In your terminal
 
   ```
-  bundle install
+bundle install
 
 rails db:create
 

@@ -16,8 +16,10 @@
 * POSTGRESQL
 
 ## Database initialization
-  ### In your terminal
-    ```bundle install
+  #### In your terminal
+
+    ```
+      bundle install
       rails db:create
       rails db:migrate
       rails db:seed

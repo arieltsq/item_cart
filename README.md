@@ -16,7 +16,7 @@
 * POSTGRESQL
 
 ## Database initialization
-  #### In your terminal
+###### In your terminal
 
   ```
 bundle install
